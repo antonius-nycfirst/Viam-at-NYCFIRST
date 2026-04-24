@@ -17,7 +17,7 @@ async def connect():
         api_key='YOURAPIKEY',
         api_key_id='YOURAPIKEYID'
     )
-    return await RobotClient.at_address('nyc-first-pi-2-main.ae8j1ofrtk.viam.cloud', opts)
+    return await RobotClient.at_address('YOUR-ROBOT-ADDRESS-HERE-IT-LOOKS-LIKE-nyc-first-pi-2-main.ae8j1ofrtk.viam.cloud', opts)
 
 async def main():
     async with await connect() as machine:
